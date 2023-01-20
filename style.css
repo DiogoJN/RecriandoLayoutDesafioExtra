@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #ffffff;;
+
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+main #logo {
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6.4rem;
+  margin-bottom: 3.2rem;
+}
+
+main h2 {
+  font-family: 'Dosis';
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  text-align: center;
+
+  color: #3F3D56;
+
+  margin-bottom: 1.6rem;
+
+}
+
+main h2 strong {
+  color: #EE24FF;
+}
+
+main p {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+
+
+  text-align: center;
+
+  color: #828282;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 54rem;
+  height: 10.7rem;
+}
+
+main p strong {
+  color: #000;
+}
+
+main p a {
+  text-decoration: none;
+  color: #828282;
+  font-weight: bold;
+}
+
+footer {  
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  color: #3F3D56;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 8.3rem;
+
+  
+}
+
+footer p {
+  position: relative;
+  width: 391px;
+  height: 0px;
+
+  border: 1px solid #ECEFF2;
+  margin-bottom: 3.8rem;
+}
+
+footer ol {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+  margin-top: 1.6rem;
+}
+
+.page #wave {
+
+  display: block;
+  margin-top: 1.4rem;
+  height: 11.1rem;
+  width: 100%;
+}
